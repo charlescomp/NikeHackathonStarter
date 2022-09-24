@@ -7,15 +7,25 @@ const newSneakers = (sneakers) => {
 };
 
 const isThatMichaelJordan = (name) => {
-  // insert code
+   return name.toLowerCase() == 'michael jordan' ? true : false
+
 };
 
 const areYouM = (name) => {
-  // insert code
+  return name.indexOf('M') == 0 ? true : false
+
 };
 
 const mostViewsThreeSneakers = (sneakerOneViews, sneakerTwoViews, sneakerThreeViews) => {
-  // insert code
+  let biggestNum = 0
+
+  for(let i = 0; i < arr.length;i++){
+    if(arr[i] > biggestNum){
+      biggestNum = arr[i]
+    }
+  }
+  return biggestNum
+
 };
 
 const mostViews = (sneakerViews) => {
